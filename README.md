@@ -1,6 +1,6 @@
 # 🚗 UWB-Based Vehicle Localization using TDoA & AoA
 
-This MATLAB project implements and compares multiple 2D localization algorithms using **Ultra-Wideband (UWB)** signals — specifically **Time Difference of Arrival (TDoA)** and **Angle of Arrival (AoA)** — to estimate a vehicle’s position in a racetrack environment.
+This MATLAB project implements and compares multiple 2D localization algorithms using Ultra-Wideband (UWB) signals — specifically Time Difference of Arrival (TDoA) and Angle of Arrival (AoA) — to estimate a vehicle’s position in a racetrack environment.
 
 ---
 
