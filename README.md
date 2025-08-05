@@ -4,7 +4,7 @@ This MATLAB project implements and compares multiple 2D localization algorithms 
 
 ---
 
-## 📘 Overview
+## Overview
 
 - **Setup**: 10 UWB access points (APs), 4 vehicle-mounted tags, GPS RTK ground truth
 - **Sampling Rate**: 10 Hz
@@ -17,7 +17,7 @@ This MATLAB project implements and compares multiple 2D localization algorithms 
 
 ---
 
-## 📂 Project Files
+## Project Files
 
 | Filename                        | Description |
 |----------------------------------|-------------|
@@ -33,7 +33,7 @@ This MATLAB project implements and compares multiple 2D localization algorithms 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Open MATLAB (R2021a or later recommended).
 2. Add all `.m` files and `LNSM_Project_Data.mat` to your working directory.
