@@ -1,4 +1,4 @@
-# 🚗 UWB-Based Vehicle Localization using TDoA & AoA
+# UWB-Based Vehicle Localization using TDoA & AoA
 
 This project implements and compares multiple 2D localization algorithms using Ultra-Wideband (UWB) signals — specifically Time Difference of Arrival (TDoA) and Angle of Arrival (AoA) — to estimate a vehicle’s position in a racetrack environment.
 
@@ -26,15 +26,3 @@ This project implements and compares multiple 2D localization algorithms using U
 | `tdoa_aoa_fusion_track3.m`      | TDoA+AoA fusion (Track 3), Kalman filtering, NIS |
 | `LNSM_Project_Data.mat`         | Full dataset: raw TDoA/AoA, AP positions, ground truth |
 | `localization_Project_presentation 1.pptx` | Final project presentation slides |
-
-## How to Run
-
-1. Open MATLAB (R2021a or later recommended).
-2. Add all `.m` files and `LNSM_Project_Data.mat` to your working directory.
-3. Run any of the analysis scripts directly:
-
-```matlab
-run('aoa_ekf_multitrack_final.m')        % AOA-only EKF
-run('tdoa_only_multitrack.m')            % TDoA-only all tracks
-run('tdoa_aoa_fusion_track2.m')          % Fusion method on Track 2
-run('visualizeRawDataStandalone.m')      % Raw AoA rays and animations
